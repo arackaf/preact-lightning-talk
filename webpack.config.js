@@ -11,7 +11,10 @@ module.exports = {
     publicPath: "dist"
   },
   resolve: {
-    alias: {},
+    alias: {
+      react: "preact/compat",
+      "react-dom": "preact/compat"
+    },
     modules: [path.resolve("./node_modules")]
   },
   mode: "production",
