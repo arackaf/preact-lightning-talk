@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { h } from "preact";
+import { useState } from "preact/hooks";
 
 export default props => {
   const [val, setVal] = useState(0);

@@ -1,5 +1,4 @@
-import React from "react";
-import { render } from "react-dom";
+import { render, h } from "preact";
 
 import App from "./mainComponent";
 
