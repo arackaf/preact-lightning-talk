@@ -1,0 +1,32 @@
+{
+  "name": "preact-lightning-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arackaf/preact-lightning-talk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arackaf/preact-lightning-talk/issues"
+  },
+  "homepage": "https://github.com/arackaf/preact-lightning-talk#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "preact": "^10.0.0-rc.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
