@@ -1,5 +1,7 @@
 import React, { createElement, useState } from "react";
 
+//Let's simulate a React library from npm:
+
 export default props => {
   const [val, setVal] = useState(0);
   return React.createElement(
